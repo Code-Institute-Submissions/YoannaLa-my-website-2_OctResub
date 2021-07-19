@@ -53,16 +53,16 @@ color:rgb(59, 56, 56);
 }
 
 /* hero image*/
-#hero outer {
+#hero-outer {
     height: 600px;
     width: 100%;
     overflow:hidden;
 }
 
-#hero image {
+#hero-image {
     height: 600px;
     width: 100%;
-    background-image: url('../css/images/weights\ crossfit.jpg') no-repeat center center;
+    background: url('../css/images/weights\ crossfit.jpg') no-repeat center center;
 
 /* animates zoom effects on the loading page */
     animation-name: hero-zoom;
