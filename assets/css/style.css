@@ -8,4 +8,30 @@
 body {
     font-family: 'Oxygen', sans-serif;
     font-weight: 300px;
+    color:green;
+}
+
+/* headings and logo*/
+h1, h2 {
+font-family:'Oxygen', sans-serif; ;
+text-transform: uppercase;
+letter-spacing: 4px;
+color:rgb(59, 56, 56);
+}
+
+#logo {
+    float:left;
+    font-size: 280%;
+}
+/* navigation links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu li{
+    float:right;
+    list-style-type: none;
+    margin-right: 30px;
 }
