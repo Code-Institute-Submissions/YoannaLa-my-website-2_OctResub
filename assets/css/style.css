@@ -48,10 +48,14 @@ color:rgb(59, 56, 56);
     border-bottom:1px solid grey;
 }
 
+.acitve {
+    border-bottom: 1px solid grey;
+}
+
 /* hero image*/
 
 #hero-image {
     height: 600px;
     width: 100%;
-    background-image: url('../css/images/weights\ crossfit.jpg') no-repeat center center;
+    background-image: url('../css/images/weights\ crossfit.jpg') ;
 }
