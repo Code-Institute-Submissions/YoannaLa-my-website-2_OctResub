@@ -57,7 +57,7 @@ color:rgb(59, 56, 56);
     height: 600px;
     width: 100%;
     overflow:hidden;
-    
+
     position: relative;
 }
 
@@ -104,4 +104,30 @@ color:rgb(59, 56, 56);
     left:150px;
 
     position:absolute;
+}
+/* club ethos */
+
+#club-ethos {
+height: 600px;
+}
+#left-about {
+    padding-top:30px;
+    width: 33%;
+   float: left ;
+}
+#right-about {
+    padding-top:30px;
+    width: 33%;
+   float: right;
+}
+#center-about {
+    width: 33%;
+    margin: 0 auto;
+}
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom:50px;
 }
