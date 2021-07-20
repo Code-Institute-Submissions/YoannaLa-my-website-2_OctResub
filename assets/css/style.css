@@ -172,4 +172,5 @@ hr {
 #circle-cover-bg {
     background: url('../css/images/barbell\ clip\ attaching.jpg') no-repeat center center;
     height: 100%;
+    border-radius: 50px;
 }
