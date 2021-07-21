@@ -109,8 +109,9 @@ color:rgb(59, 56, 56);
 /* club ethos */
 
 #club-ethos {
-height: 600px;
+ height: 600px;
 }
+
 #left-about {
     padding-top:30px;
     width: 33%;
@@ -124,7 +125,6 @@ height: 600px;
 #center-about {
     width: 33%;
     margin: 0 auto;
-
 }
 
 hr {
