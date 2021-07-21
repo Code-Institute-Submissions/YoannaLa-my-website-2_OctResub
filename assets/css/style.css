@@ -16,7 +16,7 @@ h1, h2 {
 font-family:'Oxygen', sans-serif; ;
 text-transform: uppercase;
 letter-spacing: 4px;
-color:rgb(59, 56, 56);
+color:rgb(150, 196, 44);
 }
 
 #logo {
@@ -185,9 +185,10 @@ hr {
     overflow: hidden;
 
 }
+
 #packages div {
-    color:wheat;
-    background-color: 
+    color: black;
+    background-color: rgb(128, 128, 128,.7);
     width: 25%;
     height: 200px;
     float: left;
