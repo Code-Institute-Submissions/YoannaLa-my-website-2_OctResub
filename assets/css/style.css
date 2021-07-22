@@ -8,7 +8,7 @@
 body {
     font-family: 'Oxygen', sans-serif;
     font-weight: 300px;
-    color:green;
+    color:rgb(94, 90, 90);
 }
 
 /* headings and logo*/
@@ -16,7 +16,7 @@ h1, h2 {
 font-family:'Oxygen', sans-serif; ;
 text-transform: uppercase;
 letter-spacing: 4px;
-color:rgb(150, 196, 44);
+color:rgb(5, 117, 48);
 }
 
 #logo {
@@ -46,11 +46,11 @@ color:rgb(150, 196, 44);
     color: inherit;
 }
 #menu a:hover {
-    border-bottom:1px solid grey;
+    border-bottom:1px solid rgb(94, 90, 90);
 }
 
 .acitve {
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid rgb(94, 90, 90);
 }
 
 /* hero image*/
@@ -63,7 +63,7 @@ color:rgb(150, 196, 44);
 }
 
 #cover-text, #cover-text h2 {
-    color:rgb(59, 56, 56)
+    color:white;
 
 }
 
@@ -89,7 +89,8 @@ color:rgb(150, 196, 44);
 }
 #cover-text {
     font-size: 100%;
-    font-size: 'Oxygen', sans-serif;
+    font: 'Oxygen', sans-serif;
+    color: white;
     text-transform: uppercase;
     letter-spacing: 4px;
 
@@ -99,12 +100,13 @@ color:rgb(150, 196, 44);
     padding-bottom: 10px;
     padding-left: 10px;
 
-    background-color: rgb(71, 168, 95, .5);
+    background-color:rgb(5, 117, 48,.6);
     
     bottom:10px;
     left:150px;
 
     position:absolute;
+    top: 30px;
 }
 /* club ethos */
 
@@ -123,12 +125,15 @@ color:rgb(150, 196, 44);
     float: right;
 }
 #center-about {
-    width: 33%;
-    margin: 0 auto;
+    margin: auto;
+ width: 20%;
+ padding: 10px;
+height: 300px;
+
 }
 
 hr {
-    border-top: 1px solid red;
+    border-top: 1px solid rgb(5, 117, 48);
     width: 100%;
     margin: 5px;
 }
@@ -148,10 +153,10 @@ hr {
 }
 
 .right-about-heading h2{
-    text-align: right;
+    text-align: left;
 }
 .right-about-heading p {
-    text-align: right;
+    text-align: left;
 }
 
 #welcome {
@@ -165,7 +170,7 @@ hr {
     height: 300px;
     padding: 30px;
     border-style: solid;
-    border-color: red;
+    border-color:rgb(5, 117, 48);
     border: width 1px;
     border-radius: 50px;
 }
@@ -187,8 +192,8 @@ hr {
 }
 
 #packages div {
-    color: black;
-    background-color: rgb(128, 128, 128,.7);
+    color: rgb(94, 90, 90);
+    background-color:rgb(245, 229, 229, .6);
     width: 25%;
     height: 200px;
     float: left;
@@ -196,6 +201,7 @@ hr {
     text-align: center;
     border:2px solid white;
     box-sizing: border-box;
+    letter-spacing: 4px;
 }
 
 #packages h3
@@ -219,8 +225,7 @@ footer{
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: black;
-
+    color: rgb(5, 117, 48);
 }
 
 /* gallery*/
@@ -273,7 +278,7 @@ hr {
 }
 /* for medium creen sizes from 950px wide and down*/
 @media screen and (max-width:950px) {
-    #menu {
+#menu {
         clear: left;
         float:left;
         margin-left: 30px;
@@ -301,8 +306,26 @@ padding: 0 20px;
 }
 
 }
-@media screen and (max-width:800px) {
+
+@media only screen and (min-width: 320px) and (max-width: 767px) { 
     #photos {
         column-count: 2;
     }
+}
+#contact-form {
+color: #991d84;
+font-size: 18px;
+font-weight: 700;
+background-image: url('../css/images/gallery\ 1.jpg') no-repeat center center;
+padding: 50px 25px 15px 50px;
+
+border-radius: 5px;
+width: 100%;
+letter-spacing: 5px;
+}
+
+#contact-form{
+    width: 90%;
+    height: 1200px;
+    margin: 0 auto;
 }
