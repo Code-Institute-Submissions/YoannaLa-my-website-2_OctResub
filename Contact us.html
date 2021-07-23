@@ -40,32 +40,31 @@
     <!-- Contact us table -->
 
     <body>
-        <form action="https://formdump.codeinstitute.net" method="POST>
-                   
-           <fieldset>
-            <legend> CONTACT US </legend>
-            <div id="frame">
-                <label for="name"> Athlete name: </label>
-                <input type="text" name="full name" id="name" placeholder="Your name">
+       
+        <img src="assets/css/images/Girls lifting.jpg" alt="women in a gym lifting barbells">
+        <form action="https://formdump.codeinstitute.net" method="POST" class="container">             
+         <fieldset>
+          <legend> Contact us </legend>
+         <label for="name"> Athlete name: </label>
+            <input type="text" name="full name" id="name" placeholder="Your name">
 
-                <label for="email"> Email: </label>
-                <input type="email" name="email" id="email" placeholder="Your email">
+            <label for="email"> Email: </label>
+            <input type="email" name="email" id="email" placeholder="Your email">
 
-                <label for="phone"> Phone: </label>
-                <input type="tel" name="phone" id="phone" placeholder="Your phone number">
+            <label for="phone"> Phone: </label>
+            <input type="tel" name="phone" id="phone" placeholder="Your phone number">
 
 
-                <label for="msg">Your messagese: </label>
-                <textarea name="msg" id="msg" placeholder="Your message here"></textarea>
-            </div>
+            <label for="msg" class="message-label">Your messagese: </label>
+            <textarea name="msg" id="msg" placeholder="Your message here"></textarea>
+
             <div class="checks">
                 <input type="checkbox" name="T&C" id="t&c">
                 <label for="t&c"> Terms & Conditions </label>
             </div>
 
-
             <p> Share your fitness level: </p>
-
+            <div class="radio-button">
             <input type="radio" name="gender" id="beginner" value="Beginner">
             <label for="beginner"> Beginner </label>
 
@@ -75,15 +74,12 @@
             <input type="radio" name="gender" id="call back" value="Advanced" checked>
             <label for="advanced"> Advanced</label>
 
-
-            <input type="submit" id="submit" value="Contact Us">
-
-            <input type="Reset" value="Clear Form">
-
+            <input type="submit" id="submit" value="Contact Us"class="button">
             </div>
-            </fieldset>
-        </form>
         </div>
+        </fieldset>
+        </form>
+
 
     </body>
 
