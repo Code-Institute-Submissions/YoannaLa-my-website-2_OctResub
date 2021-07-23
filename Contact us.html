@@ -35,26 +35,48 @@
         </nav>
 
     </Header>
-    <head>
-<section id="contact-form">
-        <form>
-            <input type="text" name="username" placeholder="Desired Username">
-            
-            <input type="password" name="password1" placeholder="Desired Password">
-            
-            <input type="password" name="password2" placeholder="Confirm Password">
-            
-            <input type="email" name="email" placeholder="Email Address">
-            
-            
-            <label for="birthdate">Date of Birth:</label>
-            <input type="date" name="birthdate" id="birthdate">
-            
-            <input type="submit" value="Register">
-            <input type="reset" value="Clear Form">
-        </form>
-    </section>
-</head>     
+   
+    <body>
+        <section>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend> CONTACT US </legend>
+
+                    <label for="name">Future athlete name</label>
+                    <input type="text" name="full name" id="name"> 
+
+                    <label for="email"> Email </label>
+                    <input type="email" name="email" id="email> 
+
+                    <label for="phone"> Phone number</label>
+                    <input type="tel" name="phone" id="phone"> 
+
+                    <label for="msg">tYour messagese</label>
+                    <textarea name="msg" id="msg"></textarea> 
+
+                    <div class="checks">
+                        <input type="checkbox" name="copy email" id="copy email">
+                        <label for="copy email">Send a copy to my-eamil</label>
+                    </div>
+                    
+                    <div class=checks>
+                        <p> Prefered method of contacts:</p>
+
+                        <input type="radio" name="contact" id="contactEamil" value="email">
+                        <label for="contactEmail"> Email </label>
+
+                        <input type="radio" name="contact" id="contactTel" value="phoneNumber">
+                        <label for="contactTel"> Phone </label>
+
+                        <input type="radio" name="contact" id="contactText" value="text">
+                        <label for="contactTex"> Text messagese</label>
+
+                    </div>
+                    <input type="submit" id="submit" value="Contact Us">
+                </fieldset>
+            </form>
+        </section>
+    </body>
              
 <!-- footer with social networks links-->
     <footer>
