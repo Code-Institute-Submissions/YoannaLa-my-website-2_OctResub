@@ -12,27 +12,34 @@ body {
 }
 
 /* headings and logo*/
+
 h1, h2 {
 font-family:'Oxygen', sans-serif; ;
 text-transform: uppercase;
 letter-spacing: 4px;
 color:rgb(5, 117, 48);
+
 }
 
 #logo {
     float:left;
     font-size: 280%;
-    margin-left: 30px;
+    margin-left: 50px;
     }
+
+    
 /* navigation links */
 
 #menu {
+
     font-size: 110%;
     letter-spacing: 4px;
 }
 
 #menu, #logo {
     line-height: 75px;
+    width: 100%;
+  
 }
 
 #menu li{
@@ -53,6 +60,7 @@ color:rgb(5, 117, 48);
 }
 
 /* hero image*/
+
 #hero-outer {
     height: 600px;
     width: 100%;
@@ -125,9 +133,9 @@ color:rgb(5, 117, 48);
 }
 #center-about {
     margin: auto;
- width: 20%;
- padding: 10px;
-height: 300px;
+    width: 20%;
+    padding: 10px;
+    height: 300px;
 
 }
 
@@ -209,7 +217,7 @@ hr {
 }
 /* footer*/
 
-footer{
+footer {
     height: 150px;
 }
 
@@ -220,12 +228,14 @@ footer{
 .social-networks > li {
     display: inline;
 }
+
 .social-networks i {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
     color: rgb(5, 117, 48);
 }
+    
 
 /* gallery*/
 
@@ -241,39 +251,36 @@ width: 100%;
 }
 /* media queries */
 
-/* for larger to medium screen size from 1200px wide and down */
 
-@media screen and (max-width: 120px) {
-#club-ethos {
-    width: 65%;
-    height: 1200px;
-    margin: 0auto;
-}
-#welcome {
-    padding: 30px 0;
-    margin: 0;
-}
-#left-about, #right-about {
-    width: 100%;
-    float: left;
-    padding: 0%;
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    #club-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
 
-}
-#center-about {
-    clear: both;
-    width: 100%;
-    float: left;
-    padding: 0;
-}
-#packages > div {
-    width: 100%;
-    clear: both;
-    height: 150px;
-    padding: 0;
-}
-hr {
-    display: none;
-}
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-about, #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
 }
 /* for medium creen sizes from 950px wide and down*/
 @media screen and (max-width:950px) {
@@ -314,59 +321,57 @@ padding: 0 20px;
 
 /* contact form */
 
-#contact-form {
-color: #991d84;
-font-size: 18px;
-font-weight: 700;
-background-image: url('../css/images/gallery\ 1.jpg') no-repeat center center;
-padding: 50px 25px 15px 50px;
-
-border-radius: 5px;
-width: 100%;
-letter-spacing: 5px;
+form {
+    max-width: 100%;
+    margin-left: 30px;
+    margin-top: 80px;
+    padding: 250px 250px 250px;
+    border: 3px solid rgb(5, 117, 48);
+    border-radius: 8px;
+    background-size: cover;
+    background: url('../css/images/gallery\ 1.jpg') no-repeat center center;
+    background-position:center;
 }
 
-#contact-form{
-    width: 90%;
-    height: 1200px;
-    margin: 0 auto;
+
+legend {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0 .25em;
+    color:  rgb(5, 117, 48);
 }
 
-element.style {
+/* labels in the contact form */
+
+.checks {
+    margin-top: 0;
 }
-@media (min-width: 1200px)
-.container, .container-lg, .container-md, .container-sm, .container-xl {
-    max-width: 1140px;
+
+#frame {
+    border: 1px solid rgb(5, 117, 48);
+    padding: 10px;
+
 }
-@media (min-width: 992px)
-.container, .container-lg, .container-md, .container-sm {
-    max-width: 960px;
+input{
+    border: 1px solid rgb(5, 117, 48);
+    padding: 10px;
+    width: 50%;
+    float: left;
+    font-size: 17px;
+    font-family:'Oxygen', sans-serif;
+    border: 1px solid white;
+    }
+
+textarea {
+    min-height: 50px;
+    min-width: 50%;
+    padding: 3px 6px 8px;
+    border: 1px solid rgb(5, 117, 48);
+    background: yellow;
+    position: relative;
+    resize:vertical;
+    max-height: 300px;
+   
 }
-@media (min-width: 768px)
-.container, .container-md, .container-sm {
-    max-width: 720px;
-}
-@media (min-width: 576px)
-.container, .container-sm {
-    max-width: 540px;
-}
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
-}
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-.textarea {
-    font-size: 16px;
-    background-color: #f5f5f5;
-    border: none;
-    width: 95%;
-    padding: 2%;
-}
+
+

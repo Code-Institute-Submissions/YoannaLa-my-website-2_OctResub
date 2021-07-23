@@ -8,6 +8,7 @@
     <meta name="description" content="CrossFit - Train for a better life">
     <meta name="description" content="CrossFit new way to Train">
 
+
     <link rel="stylesheet" href="assets/css/style.css">
     <title> CrossFit for life </title>
 </head>
@@ -35,50 +36,58 @@
         </nav>
 
     </Header>
-   
+
+    <!-- Contact us table -->
+
     <body>
-        <section>
-            <form action="#" method="post">
-                <fieldset>
-                    <legend> CONTACT US </legend>
+        <form action="https://formdump.codeinstitute.net" method="POST>
+                   
+           <fieldset>
+            <legend> CONTACT US </legend>
+            <div id="frame">
+                <label for="name"> Athlete name: </label>
+                <input type="text" name="full name" id="name" placeholder="Your name">
 
-                    <label for="name">Future athlete name</label>
-                    <input type="text" name="full name" id="name"> 
+                <label for="email"> Email: </label>
+                <input type="email" name="email" id="email" placeholder="Your email">
 
-                    <label for="email"> Email </label>
-                    <input type="email" name="email" id="email> 
+                <label for="phone"> Phone: </label>
+                <input type="tel" name="phone" id="phone" placeholder="Your phone number">
 
-                    <label for="phone"> Phone number</label>
-                    <input type="tel" name="phone" id="phone"> 
 
-                    <label for="msg">tYour messagese</label>
-                    <textarea name="msg" id="msg"></textarea> 
+                <label for="msg">Your messagese: </label>
+                <textarea name="msg" id="msg" placeholder="Your message here"></textarea>
+            </div>
+            <div class="checks">
+                <input type="checkbox" name="T&C" id="t&c">
+                <label for="t&c"> Terms & Conditions </label>
+            </div>
 
-                    <div class="checks">
-                        <input type="checkbox" name="copy email" id="copy email">
-                        <label for="copy email">Send a copy to my-eamil</label>
-                    </div>
-                    
-                    <div class=checks>
-                        <p> Prefered method of contacts:</p>
 
-                        <input type="radio" name="contact" id="contactEamil" value="email">
-                        <label for="contactEmail"> Email </label>
+            <p> Share your fitness level: </p>
 
-                        <input type="radio" name="contact" id="contactTel" value="phoneNumber">
-                        <label for="contactTel"> Phone </label>
+            <input type="radio" name="gender" id="beginner" value="Beginner">
+            <label for="beginner"> Beginner </label>
 
-                        <input type="radio" name="contact" id="contactText" value="text">
-                        <label for="contactTex"> Text messagese</label>
+            <input type="radio" name="gender" id="intermediate" value="Intermediate">
+            <label for="intermediate"> Intermediate </label>
 
-                    </div>
-                    <input type="submit" id="submit" value="Contact Us">
-                </fieldset>
-            </form>
-        </section>
+            <input type="radio" name="gender" id="call back" value="Advanced" checked>
+            <label for="advanced"> Advanced</label>
+
+
+            <input type="submit" id="submit" value="Contact Us">
+
+            <input type="Reset" value="Clear Form">
+
+            </div>
+            </fieldset>
+        </form>
+        </div>
+
     </body>
-             
-<!-- footer with social networks links-->
+
+    <!-- footer with social networks links-->
     <footer>
         <ul class="social-networks">
             <li>
@@ -91,14 +100,15 @@
             </li>
             <li>
                 <a href="https://instagram.com" target="_blank" rel="noopener"
-                    aria-label="Visit our instagram page (open in a new tab)"> <i class="fab fa-instagram-square"></i></a>
+                    aria-label="Visit our instagram page (open in a new tab)"> <i
+                        class="fab fa-instagram-square"></i></a>
             </li>
         </ul>
 
     </footer>
 
     <!-- font awsome script -->
-        <script src="https://kit.fontawesome.com/1538883306.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/1538883306.js" crossorigin="anonymous"></script>
 
 </body>
 
