@@ -327,6 +327,7 @@ fieldset {
     padding: 50px 50px 50px;
     border: 2px solid rgb(5, 117, 48);
     border-radius: 8px;
+    position: center;
 }
 img {
     height: 600px;
@@ -340,15 +341,17 @@ img {
     object-fit: cover;
     opacity: 0.5;
 }
-
+    
 legend{
-    text-align: center;  
+    font-family: 'Oxygen', sans-serif;
     font-size: 110%;
     letter-spacing: 4px;
+    margin: 10px;
       color: rgb(94, 90, 90);
 }
 
 /* Full-width input fields */
+
 input[type=text], input[type=email], input[type=tel] {
     width: 100%;
     padding: 15px;
@@ -357,11 +360,21 @@ input[type=text], input[type=email], input[type=tel] {
     border: none;
     background: #f1f1f1;
 }
+checks {
+    background-color: rgb(5, 117, 48);
+    color: white;
+}
+ p{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 90%;
+    letter-spacing: 4px;
+    color: rgb(94, 90, 90);
 
+ }
 .button {
   background-color: rgb(5, 117, 48);
   color: white;
-  padding: 16px 20px;
+  padding: 10px 10px;
   border: none;
   cursor: pointer;
   width: 100%;
@@ -375,16 +388,16 @@ input[type=text], input[type=email], input[type=tel] {
     position:center;
 }
 
-textarea {
-    min-height: 50px;
-    min-width: 50%;
-    padding: 3px 6px 8px;
+ textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    float: left;
+    border: none;
+    background: #f1f1f1;
     border: 1px solid rgb(5, 117, 48);
-    background: yellow;
-    position: relative;
     resize:vertical;
-    max-height: 300px;
-   
+     
 }
 
 
