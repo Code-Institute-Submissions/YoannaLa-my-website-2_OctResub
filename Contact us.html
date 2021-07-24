@@ -39,60 +39,50 @@
 
     <!-- Contact us table -->
 
-    <body>
-      
-       <div class="bg-img">
-        <img src="assets/css/images/Girls lifting.jpg" alt="women in a gym lifting barbells">
-    </div>
-        <form action="https://formdump.codeinstitute.net" method="POST" class="container">
+<body>
+
+<div class="bg-img">
+
+    <form action="https://formdump.codeinstitute.net" method="POST" class="container">
         
 
-        <div id="form-container">
-         <fieldset>
+    <h1> Contact Us </h1>
 
-          <legend> Contact us</legend>
+    <label for="name"></label>
+    <input type="text" name="full name" id="name" placeholder="Your name" required>
 
-           <label for="name"> First name </label>
-            <input type="text" name="full name" id="name" placeholder="Your name">
+    <label for="email"> </label>
+    <input type="email" name="email" id="email" placeholder="Your email">
 
-            <label for="email">Email address </label>
-            <input type="email" name="email" id="email" placeholder="Your email">
+    <label for="phone"> </label>
+    <input type="tel" name="phone" id="phone" placeholder="Your phone number"required>
 
-            <label for="phone">Phone number </label>
-            <input type="tel" name="phone" id="phone" placeholder="Your phone number">
+    <label for="msg" class="message-label"></label>
+    <textarea name="msg" id="msg" placeholder="Your message here"></textarea>
 
+    <div class="checkbox">
+        <input id="checkbox" type="checkbox" />
+        <label for="checkbox"> I agree to these <a href="#">Terms and Conditions</a>.</label>
+      </div>
+   
 
-            <label for="msg" class="message-label"></label>
-            <textarea name="msg" id="msg" placeholder="Your message here"></textarea>
+    <p> Share your fitness level: </p>
+    <div class="radio-button">
+    <input type="radio" name="level" id="beginner" value="Beginner">
+    <label for="beginner"> Beginner </label>
 
-            <div class="checks">
-                <input type="checkbox" name="T&C" id="t&c">
-                <label for="t&c"> Terms & Conditions </label>
-            </div>
+    <input type="radio" name="level" id="intermediate" value="Intermediate">
+    <label for="intermediate"> Intermediate </label>
 
-            <p> Share your fitness level: </p>
-            <div class="radio-button">
-            <input type="radio" name="gender" id="beginner" value="Beginner">
-            <label for="beginner"> Beginner </label>
+    <input type="radio" name="level" id="advanced value="Advanced" checked>
+    <label for="advanced"> Advanced</label>
 
-            <input type="radio" name="gender" id="intermediate" value="Intermediate">
-            <label for="intermediate"> Intermediate </label>
-
-            <input type="radio" name="gender" id="call back" value="Advanced" checked>
-            <label for="advanced"> Advanced</label>
-
-            <input type="submit" id="submit" value="Contact Us"class="button">
-            </div>
-        </div>
-        </fieldset>
-        </form>
-    </div>
-    
-       
-    </body>
+    <input type="submit" value="Submit" id="submit">
+  </form>
+</div>
 
     <!-- footer with social networks links-->
-    <footer>
+    <footer class="footer">
         <ul class="social-networks">
             <li>
                 <a href="https://facebook.com" target="_blank" rel="noopener"
@@ -104,13 +94,11 @@
             </li>
             <li>
                 <a href="https://instagram.com" target="_blank" rel="noopener"
-                    aria-label="Visit our instagram page (open in a new tab)"> <i
-                        class="fab fa-instagram-square"></i></a>
+                    aria-label="Visit our instagram page (open in a new tab)"> <i class="fab fa-instagram-square"></i></a>
             </li>
         </ul>
 
     </footer>
-
     <!-- font awsome script -->
     <script src="https://kit.fontawesome.com/1538883306.js" crossorigin="anonymous"></script>
 
