@@ -220,26 +220,28 @@ hr {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: pink;
-   
+    background-color: white;
+    color: white;
     text-align: center;
   }
 
+
 .social-networks {
     text-align: center;
+  
 }
 
 .social-networks > li {
     display: inline;
 }
 
-.social-networks i {
+.social-networks li {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
     color: rgb(5, 117, 48);
-}
-    
+   }
+
 
 /* gallery*/
 
@@ -250,9 +252,10 @@ hr {
     column-gap: 1px;
 }
 
-#photos >img {
+#photos > img {
 width: 100%;
 }
+
 /* media queries */
 
 
@@ -415,4 +418,20 @@ input[type=text], input[type=email], input[type=tel] {
         border: none;
         background: #f1f1f1;
     }
+
+
+    .map-responsive{
+        overflow:hidden;
+            padding-bottom:56.25%;
+            position:relative;
+            height:0;
+        }
     
+    .map-responsive iframe{
+            left:0;
+            top:0;
+            height:100%;
+            width:100%;
+            position:absolute;
+    
+    }
