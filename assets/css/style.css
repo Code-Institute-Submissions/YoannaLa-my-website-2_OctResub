@@ -69,7 +69,6 @@ color:rgb(5, 117, 48);
 
 #cover-text, #cover-text h2 {
     color:white;
-
 }
 
 #hero-image {
@@ -422,7 +421,8 @@ input[type=text], input[type=email], input[type=tel] {
 
     .map-responsive{
         overflow:hidden;
-            padding-bottom:56.25%;
+        z-index: -1;
+        padding-bottom:56.25%;
             position:relative;
             height:0;
         }
