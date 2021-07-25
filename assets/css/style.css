@@ -95,19 +95,17 @@ color:rgb(5, 117, 48);
     font-size: 100%;
     font: 'Oxygen', sans-serif;
     color: white;
-    text-transform: uppercase;
+  
     letter-spacing: 4px;
-
+    text-align: center;
     width: 250px;
     height: 150px;
-
-    padding-bottom: 10px;
-    padding-left: 10px;
 
     background-color:rgb(5, 117, 48,.6);
     
     bottom:10px;
-    left:150px;
+    left:250px;
+    padding: 15px 15px;
 
     position:absolute;
     top: 30px;
@@ -393,6 +391,7 @@ textarea{
     padding: 10px 10px;
     color: rgb(94, 90, 90);
 }
+
 
 /*input fields*/
 
