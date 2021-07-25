@@ -12,7 +12,6 @@ body {
 }
 
 /* headings and logo*/
-
 h1, h2 {
 font-family:'Oxygen', sans-serif; ;
 text-transform: uppercase;
@@ -29,7 +28,6 @@ color:rgb(5, 117, 48);
 
     
 /* navigation links */
-
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -58,7 +56,6 @@ color:rgb(5, 117, 48);
 }
 
 /* hero image*/
-
 #hero-outer {
     height: 600px;
     width: 100%;
@@ -91,6 +88,7 @@ color:rgb(5, 117, 48);
         transform: scale(1.1);
     }
 }
+/* cover text*/
 #cover-text {
     font-size: 100%;
     font: 'Oxygen', sans-serif;
@@ -111,7 +109,6 @@ color:rgb(5, 117, 48);
     top: 30px;
 }
 /* club ethos */
-
 #club-ethos {
  height: 600px;
 }
@@ -242,7 +239,7 @@ hr {
     color: rgb(5, 117, 48);
    }
 
-
+/*sectond page - getting started*/
 /* gallery*/
 
 #photos {
@@ -257,7 +254,6 @@ width: 100%;
 }
 
 /* media queries */
-
 
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
@@ -326,8 +322,8 @@ padding: 0 20px;
     }
 }
 
+/* page 3 - contact form*/
 /* contact form */
-
 
 * {
     box-sizing: border-box;
@@ -393,7 +389,7 @@ textarea{
 }
 
 
-/*input fields*/
+/*input fields for the form*/
 
 input[type=text], input[type=email], input[type=tel] {
         width: 100%;
