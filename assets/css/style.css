@@ -347,22 +347,13 @@ padding: 0 20px;
 .container {
     position: absolute;
     right: 0;
-    margin: 20px 20px;
+    margin: 10px 10px;
     width: 50%;
     height: 450px;
-    padding: 16px;
-    background-color: white;
+    padding: 10px 10px;
+    background-color: rgb(224, 204, 204, .8);
   }
-  .submit{
-    background-color: rgb(5, 117, 48);
-    color: white;
-
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    opacity: 0.9;
-  }
-
+  
 .checkbox {
   display:block;
   width: 80%;
@@ -370,47 +361,39 @@ padding: 0 20px;
 }
 
 textarea{
-    width: 90%;
+    width: 100%;
     padding: 15px;
-    margin: 5px 0 22px 0;
     float: left;
     background: #f1f1f1;
-    border: 1px solid rgb(5, 117, 48);
+ 
     resize:vertical;
 }
 
 #submit {
     background-color: rgb(5, 117, 48);
-    width: 90%;
+    width: 100%;
     color: white;
-    padding: 14px 20px;
-    margin-left: 10px;
+    padding: 15px 15px;
+   margin:0;
     border: none;
     border-radius: 4px;
     cursor: pointer;
       }
-checkbox {
-    float: left;
-}
+
 
 .radio-button {
-     font-family: 'Oxygen', sans-serif;
-    font-size: 100%;
-    float: left;
-    color: rgb(94, 90, 90);
-}
-p {
-    float: left;
     font-family: 'Oxygen', sans-serif;
-    font-size: 100%;
+    font-size: 90%;
     float: left;
+    padding: 10px 10px;
     color: rgb(94, 90, 90);
 }
+
 
 /*input fields*/
 
 input[type=text], input[type=email], input[type=tel] {
-        width: 90%;
+        width: 100%;
         padding: 15px;
         margin: 8px 0;
         float: left;
@@ -421,17 +404,17 @@ input[type=text], input[type=email], input[type=tel] {
 
     .map-responsive{
         overflow:hidden;
-        z-index: -1;
-        padding-bottom:56.25%;
-            position:relative;
-            height:0;
+        z-index: 1;
+        padding-bottom:5;
+         position:relative;
+        height:0;
         }
     
     .map-responsive iframe{
-            left:0;
-            top:0;
-            height:100%;
-            width:100%;
-            position:absolute;
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
     
     }
