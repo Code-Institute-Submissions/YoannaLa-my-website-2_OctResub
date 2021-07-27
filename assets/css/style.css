@@ -387,4 +387,7 @@ input[type=text], input[type=email], input[type=tel] {
 .address {
     text-align: center;
     margin: 50px 0;
-    font-size:120%;}
+    font-size:110%;
+    letter-spacing: 2px}
+
+  
