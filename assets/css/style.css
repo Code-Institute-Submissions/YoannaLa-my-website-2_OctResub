@@ -176,7 +176,7 @@ hr {
     text-align: center;
     border:2px solid white;
     
-    letter-spacing: 4px;}
+    letter-spacing: 2px;}
 
 #packages h3 {
     color: black;}
@@ -184,17 +184,14 @@ hr {
 /* footer*/
 
 .footer {
-    left: 0;
-    bottom: 0;
-    padding-top: 35px;
-    padding-bottom: 35px;
-    width: 100%;
-    background-color:white;
-    color: white;
-    text-align: center;}
-
-
-.social-networks {
+    text-align: center;
+} 
+.find-us{ 
+    text-align: center;
+    padding: 10px 10px10px 10px;
+}
+ 
+.social-networks  {
     text-align: center;}
 
 .social-networks > li {
@@ -203,21 +200,35 @@ hr {
 .social-networks li {
     font-size: 120%;
     margin: 1%;
-    padding: 5%;
-    color: rgb(5, 117, 48);}
+    padding: 5%;}
+
 
 /*sectond page - getting started*/
 /* gallery*/
 
-#photos {
+.gallery {
     clear:both;
     line-height: 0;
     column-count: 4;
-    column-gap: 1px;}
+    column-gap: 3px;
+    row-gap: 3px;}
+ 
+.gallery > img {
+    width: 100%;
+    display: flex;
+	padding: 2px;
+    display: block;
+    transition: .3s;}
 
-#photos > img {
-width: 100%;}
+.gallery_link {
+    margin: 2px;
+    overflow: hidden;}
 
+:hover img {
+		filter: grayscale(1);
+        transform: scale(1.1);}
+
+                            
 /* media queries */
 
 /* For larger to medium screens size from 1200px wide and down */
