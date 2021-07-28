@@ -220,18 +220,22 @@ footer {
     margin-left: 30px;
     margin-right: 30px;
       }
-
-  .classes {
+.classes {
       width: 100%;
       margin-left: 30px;
       margin-right: 30px;
-      margin-bottom: 100px;
-  }
+      margin-bottom: 100px;  }
+
  th, td {
         padding: 25px;
         text-align: center;
         border: 1px solid green;
       }
+th {
+    background-color: green;
+    color: white;
+}
+
 
 /*third page - getting started*/
 /* gallery*/
