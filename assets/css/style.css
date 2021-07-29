@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Oxygen', sans-serif;
-    font-weight: 300px;
+    font: normal;
     color:rgb(94, 90, 90);}
 
 /* headings and logo*/
@@ -75,7 +75,7 @@ color:rgb(5, 117, 48);}
 /* cover text*/
 #cover-text {
     font-size: 100%;
-    font: 'Oxygen', sans-serif;
+    font-family: 'Oxygen', sans-serif;
     color: white;
   
     letter-spacing: 4px;
@@ -149,7 +149,7 @@ hr {
     padding: 30px;
     border-style: solid;
     border-color:rgb(5, 117, 48);
-    border: width 1px;
+    border: 1px solid;
     border-radius: 50px;}
 
 #circle-cover-bg {
