@@ -360,11 +360,7 @@ th {
          column-count: 3;
     }   
 
-    form {
-        width: 40%;
-        float:none;
-        margin:0;
-    }
+
     h1 {
         padding: 30px 0;
         margin: 0;
@@ -381,7 +377,7 @@ th {
     margin: 0 auto;
         }
 #schedule { 
-    padding: 30px 0;
+    padding: 0;
     margin: 0;
 }
 
@@ -394,6 +390,18 @@ th {
 /* contact form */
 
 * { box-sizing: border-box;}
+
+.container {
+    position: absolute;
+    right:20px;
+    margin: 10px 10px;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 100px;
+    width: 30%;
+   
+    padding: 10px 10px;
+    background-color: rgb(224, 204, 204, .8);}
 
 .bg-img{
     height: 600px;
@@ -408,17 +416,9 @@ th {
     
     background-size: cover;}
 
-.container {
-    position: absolute;
-    left: 950px;
-    margin: 10px 10px;
-    margin-top: 30px;
-    margin-right: 30px;
-    margin-bottom: 100px;
-    width: 30%;
-    height: 450px;
-    padding: 10px 10px;
-    background-color: rgb(224, 204, 204, .8);}
+.time{
+    background-color:rgb(224, 204, 204, .8;)
+}
   
 .checkbox {
     display:block;
