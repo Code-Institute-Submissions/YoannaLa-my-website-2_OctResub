@@ -123,14 +123,16 @@ hr {
     float: right;
     line-height: 20px;
     clear: both;
-    margin-bottom:50px;}
+    margin-bottom: 50px;
+}
 
 .right-about-heading {
     width: 60%;
     float: left;
     line-height: 20px;
     clear: both;
-    margin-bottom:50px;}
+    margin-bottom: 50px;
+    }
 
 .right-about-heading h2{
     text-align: left;}
@@ -138,19 +140,31 @@ hr {
 .right-about-heading p {
     text-align: left;}
 
+.left-about-heading h2 {
+        text-align: left;
+    }
+.left-about-heading p {
+        text-align: left;
+    }
+    
+
 #welcome {
     text-align: center;
     margin: 50px 0;
-    font-size:280%;}
+    font-size:280%;
+    border-radius: 50px;}
 
 #circle-container {
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    border-style: solid;
-    border-color:rgb(5, 117, 48);
-    border: 1px solid;
-    border-radius: 50px;}
+        width: 300px;
+        height: 300px;
+        padding: 30px;
+        border-style: solid;
+        border-color: rgb(5, 117, 48);
+        border-width: 1px;
+        border-radius: 50px;
+            
+       margin: 0 auto;
+    }
 
 #circle-cover-bg {
     background: url('../css/images/barbell\ clip\ attaching.jpg') no-repeat center center;
@@ -201,6 +215,7 @@ footer {
     text-align: center;
     padding: 15px 15px;
 }
+
 .social-networks i {
     font-size: 160%;
     margin: 1%;
