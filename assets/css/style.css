@@ -375,15 +375,20 @@ th {
 #gallery {
         column-count: 2;}
 
- #container {
-      width: 50%;
-      margin: 0 auto;
+ #bg-img {
+    width: 50%;
+    height: 1200px;
+    margin: 0 auto;
         }
+#schedule { 
+    padding: 30px 0;
+    margin: 0;
+}
+
  h1 {
-    width: inherit; 
-    text-align: center; 
-  
-        }
+    padding: 30px 0;
+    margin: 0;
+          }
 }
 
 /* page 4 - contact form*/
