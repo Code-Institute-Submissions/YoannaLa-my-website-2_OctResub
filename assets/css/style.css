@@ -314,51 +314,59 @@ th {
         display: none;
     }
 
-    #packages >div{
+    #packages > div {
         width: 100%;
         clear: both;
         height: 150px;
         padding: 0;
-        
-    }
-
-
+            }
 }
+
 /* for medium creen sizes from 950px wide and down*/
 
 @media screen and (max-width:950px) {
-#menu {
-    clear: left;
-    float:left;
-    margin-left: 30px;
-    margin-bottom: 20px;
-    line-height: 25px;
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
     }
-#cover-text {
-    left:0;}
-#club-ethos {
-    width: 90%;
-    height: 1200px;
-    margin: 0 auto;
+
+    #cover-text {
+        left: 0;
+    }
+
+    #club-ethos {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-about-heading, .right-about-heading {
+        width: inherit;
+    }
+
+    .left-about-heading h2, .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p, .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    #gallery{
+         column-count: 3;
 }
-.left-about-heading h2, .right-about-heading h2 {
-   width: inherit; 
-   text-align: center;
+    #container {
+          width: 40%;
+          margin: 0 auto;
 }
-.left-about-heading p, .right-about-heading p {
-    text-align: center;
-    padding: 0 20px;
-}
-#gallery{
-    column-count: 3;
-}
-#container {
-    width: 40%;
-    margin: 0 auto;
-}
-h1 {
-    padding: 30px 0;
-    margin: 0;
+    h1 {
+         padding: 30px 0;
+        margin: 0;
     }
 
 }
