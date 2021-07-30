@@ -186,32 +186,30 @@ hr {
 /* footer*/
 
 footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: red;
-  color: rgb(65, 59, 59);
-  text-align: center;
-} 
-
-.find-us{ 
-    margin-top: 15px;
-    margin-bottom: 15px;
-    text-align: center;
-    padding: 10px 10px 10px 10px;
+    height: 100px;
 }
- 
-.social-networks  {
-    text-align: center;}
+
+.social-networks {
+    text-align: center;
+}
 
 .social-networks > li {
-    display: inline;}
+    display: inline;
+}
 
-.social-networks li {
-    font-size: 120%;
+.find-us {
+    text-align: center;
+    padding: 15px 15px;
+}
+.social-networks i {
+    font-size: 160%;
     margin: 1%;
-    padding: 5%;}
+    padding: 10px 10px;
+    color: rgb(5, 117, 48);
+}
+
+
+ 
 
 /*Second page - class schedule */
 h2 {
@@ -238,7 +236,7 @@ th {
 }
 
 
-/*third page - getting started*/
+/*3 page - getting started*/
 /* gallery*/
 
 .gallery {
@@ -365,7 +363,7 @@ h1 {
         }
 }
 
-/* page 3 - contact form*/
+/* page 4 - contact form*/
 /* contact form */
 
 * { box-sizing: border-box;}
@@ -451,6 +449,7 @@ input[type=text], input[type=email], input[type=tel] {
     text-align: center;
     margin: 50px 0;
     font-size:110%;
-    letter-spacing: 2px}
+    letter-spacing: 2px;
+    margin-bottom: 150px;}
 
   
