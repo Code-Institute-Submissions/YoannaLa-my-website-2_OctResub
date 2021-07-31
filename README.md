@@ -44,7 +44,17 @@ The website is created to be easy and user-friendy on all type of devices. All p
 
 <img src="assets/css/images/wireframes1.jpg">
 <img src="assets/css/images/wireframes2.jpg">
+
 ## Surface
+### Colors:
+* Main font-family: 'Oxygen', sans-serif; secondary:  font-family: 'Roboto'
+* font: normal;
+* color:rgb(94, 90, 90);
+
+### Sources 
+* I've used the following website for images, text, codes, etc,
+(https://unsplash.com/s/photos/crossfit), (https://www.crossfit.com/), (https://www.w3schools.com/), 
+
 ## Features
 ## Technology
 ## Testing
