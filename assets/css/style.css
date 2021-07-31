@@ -239,7 +239,6 @@ footer {
 
 /*Class schedule*/
 
-
 table.center {
     margin-left:auto; 
     margin-right:auto;
@@ -339,7 +338,9 @@ th {
         clear: both;
         height: 150px;
         padding: 0;
-            }
+     }
+
+
 }
 
 /* for medium creen sizes from 950px wide and down*/
@@ -381,10 +382,15 @@ th {
          column-count: 3;
     }   
 
-
     h1 {
         padding: 30px 0;
         margin: 0;
+    }
+
+table {
+        width: 50%;
+        height: 1200px;
+        margin: 0 auto;
     }
 }
 
@@ -407,7 +413,7 @@ th {
           }
 }
 
-/* page 4 - contact form*/
+/* FOURTH PAGE*/
 /* contact form */
 
 * { box-sizing: border-box;}
