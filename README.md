@@ -61,3 +61,43 @@ This website was created for a new gym in Mayfair area. It introduce the user to
 * HTML - No errors were found when passing through the offical W3C validator
 * CSS - No errors were found when passing through the offical (jigsaw) validator
 
+### Club Ethos Section
+* This section explain what is CrossFit and the big 3, becoming a part of community and it's a covid safe environment
+
+<img src="assets/css/images/middlePage.jpg">
+
+### Packages 
+* Three different package options to choose from and information regarding a social event every month
+
+<img src="assets/css/images/packages.jpg">
+
+### Footer
+* Footer section contains links to social media, including Facebook, Twitter and Instagram, which opens in new taps
+* Those links provide more information regarding CrossFit and the community
+
+<img src="assets/css/images/footer.jpg">
+
+### Our Classes
+* A simple table with the schedule of classes 
+
+<img src="assets/css/images/classSchedule.jpg">
+
+### Gallery
+* This pagea provide the user with supporing images to give them a better idea of what CrossFit is
+* People of different ages, fittness and abilities, hopefully to inspire a new members
+
+<img src="assets/css/images/gallery1st.jpg">
+
+<img src="assets/css/images/gallery2nd.jpg">
+
+### Contact us
+* A last page is a page where the user can contract the gym and ask questions or simply book a free intro class
+* This page also contains a map, full address and phone number 
+
+<img src="assets/css/images/contactUs1st.jpg">
+<img src="assets/css/images/contactUs2nd.jpg">
+
+# Testing
+## Validator testing
+* HTML - No errors were found when passing through the offical W3C validator
+* CSS - No errors were found when passing through the offical (jigsaw) validator
