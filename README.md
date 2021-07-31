@@ -18,5 +18,5 @@ This website was created for a new gym in Mayfair area. It introduce the user to
 * The home page include a image with text overlay informing of a free introduction class
 * The image includes animation effect
 
-<img src="assets/css/images/1stPage.png">
+<img src="assets/css/images/1stPage.png.jpg">
 
