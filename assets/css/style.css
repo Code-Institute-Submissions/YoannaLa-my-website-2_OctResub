@@ -224,33 +224,37 @@ footer {
 }
 
  
+/*SECOND PAGE*/
 
-/*Second page - class schedule */
-h2 {
-    clear: both;
-    text-align: center;}
+/*Class schedule*/
 
 table {
     clear:both;
     width: 90%;
     margin-left: 30px;
     margin-right: 30px;
-  
+    border: 2px solid rgb(5, 117, 48);
     margin-bottom: 150px;
    }
+
+h2 {
+    clear: both;
+    text-align: center;}
 
  th, td {
     padding: 15px;
     text-align: center;
-    border: 1px solid green;}
+    border: 1px solid rgb(5, 117, 48);
+}
     
 th {
-    background-color: green;
+    background-color: rgb(5, 117, 48, .8);
     color: white;
 }
 
 
-/*3 page - getting started*/
+/*THIRD PAGE*/
+
 /* gallery*/
 
 .gallery {
@@ -416,10 +420,11 @@ th {
     
     background-size: cover;}
 
-.time{
-    background-color:rgb(224, 204, 204, .8;)
-}
-  
+
+/*FOURTH PAGE*/
+
+/*Contact us*/
+
 .checkbox {
     display:block;
     width: 80%;
