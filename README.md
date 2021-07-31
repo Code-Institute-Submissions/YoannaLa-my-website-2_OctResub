@@ -61,13 +61,27 @@ The website is created to be easy and user-friendy on all type of devices. All p
 * CSS - style language
 * bootstrap 
 
-## Testing
+# Testing
+## Validator testing
+* HTML - No errors were found when passing through the offical W3C validator
+* CSS - No errors were found when passing through the offical (jigsaw) validator
+
 ### Functionality testing
+* I've used the chrome developers tools to test and solving problems with style, links and responsiveness
+
 ### Compatibility testing
-### Code Validation
-### User stories testing
+* I've tested the website across few different devices and browsers, I coudn't work out the media for a phone to sort out the Contact Us title. Would love to find out the right way to do it. 
+
 ### Issues found during site development
-### Performance testing
+* I had a few issues with devloping this side, took me ages to sort out the form, only today (31.07) I've realised that there wee a videos on gitpod, all this time i was relaying on google and friends help... Lesson learn.
+
+* My schedule page - I really wanted to make it week by week and have at least a month with buttons next and previous, but my skills are not there yet.
+
+<img src="assets/css/images/classSchedule.jpg">
+
+
+* I've learn that I have 
+
 ## Deployment
 ## Credits
 ## Screenshots
@@ -122,10 +136,5 @@ The website is created to be easy and user-friendy on all type of devices. All p
 
 <img src="assets/css/images/contactUs1st.jpg">
 <img src="assets/css/images/contactUs2nd.jpg">
-
-# Testing
-## Validator testing
-* HTML - No errors were found when passing through the offical W3C validator
-* CSS - No errors were found when passing through the offical (jigsaw) validator
 
 
