@@ -5,6 +5,59 @@
 
 This website was created for a new gym in Mayfair area. It introduce the user to a new way of keeping fit while becoming a part of a community.  Show few benefits of CrossFit  is the great place for someone with zero fitness experience to be introduce to this form of exercise. Also, this site is a perfect place to get in touch and book a free intro class to experience CrossFit first hand.
 
+# Table of contents
+## UX
+### Website owner business goals
+### User goals
+## Structure of the website
+## Wireframes
+## Surface
+## Features
+## Technology
+## Testing
+### Functionality testing
+### Compatibility testing
+### Code Validation
+### User stories testing
+### Issues found during site development
+### Performance testing
+## Deployment
+## Credits
+## Screenshots
+
+
+
+### Website owner business goals
+* introducing user to CrossFit
+* creating "trafic" and intrest in a new way of exercise
+* using the free intro class to find new members
+
+### User goals
+* user can be learn abouth a CrossFit and become a part of the community especially during Covid time
+* user is able to read the testimonies of other crossfiters 
+* user can send a message if interested in a free introduction class in a form provided 
+
+## Structure of the website
+The website is created to be easy and user-friendy on all type of devices. All parts are designed to achieve high user satisfaction, with four pages with easy navigation buttons, 
+
+## Wireframes
+
+<img src="assets/css/images/wireframes1.jpg">
+<img src="assets/css/images/wireframes2.jpg">
+## Surface
+## Features
+## Technology
+## Testing
+### Functionality testing
+### Compatibility testing
+### Code Validation
+### User stories testing
+### Issues found during site development
+### Performance testing
+## Deployment
+## Credits
+## Screenshots
+
 # Features
 
 ## Existing Features
