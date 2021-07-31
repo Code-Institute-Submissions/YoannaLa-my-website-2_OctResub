@@ -29,13 +29,13 @@ This website was created for a new gym in Mayfair area. It introduce the user to
 
 ### Website owner business goals
 * introducing user to CrossFit
-* creating "trafic" and intrest in a new way of exercise
+* creating "traffic" and intrest in a new way of exercise
 * using the free intro class to find new members
 
 ### User goals
 * user can be learn abouth a CrossFit and become a part of the community especially during Covid time
-* user is able to read the testimonies of other crossfiters 
-* user can send a message if interested in a free introduction class in a form provided 
+* user is able to check out the gallery 
+* user can send a message if interested in a free introduction class or other query in a form provided 
 
 ## Structure of the website
 The website is created to be easy and user-friendy on all type of devices. All parts are designed to achieve high user satisfaction, with four pages with easy navigation buttons, 
@@ -55,8 +55,12 @@ The website is created to be easy and user-friendy on all type of devices. All p
 * I've used the following website for images, text, codes, etc,
 (https://unsplash.com/s/photos/crossfit), (https://www.crossfit.com/), (https://www.w3schools.com/), 
 
-## Features
+
 ## Technology
+* HTML - structure language
+* CSS - style language
+* bootstrap 
+
 ## Testing
 ### Functionality testing
 ### Compatibility testing
