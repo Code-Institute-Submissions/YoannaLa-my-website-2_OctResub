@@ -55,3 +55,8 @@ This website was created for a new gym in Mayfair area. It introduce the user to
 
 <img src="assets/css/images/contactUs1st.jpg">
 <img src="assets/css/images/contactUs2nd.jpg">
+
+# Testing
+## Validator testing
+* HTML - No errors were found when passing through the offical W3C validator
+* CSS - No errors were found when passing through the offical (jigsaw) validator
