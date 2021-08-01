@@ -2,6 +2,8 @@
 
 # CrossFit - my very first website
 
+Your site is published a (https://github.com/YoannaLa/my-website-2)
+
 # Table of contents
 ## UX
 ### Website owner business goals
