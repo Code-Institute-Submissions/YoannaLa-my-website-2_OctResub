@@ -49,7 +49,7 @@ The website is created to be easy and user-friendy on all type of devices. All p
 ### Colors:
 * Main font-family: 'Oxygen', sans-serif; secondary:  font-family: 'Roboto'
 * font: normal;
-* color:rgb(94, 90, 90);
+* color: green rgb(94, 90, 90);
 
 ### Sources 
 * I've used the following website for images, text, codes, etc,
