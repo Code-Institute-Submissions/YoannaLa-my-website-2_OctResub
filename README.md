@@ -2,9 +2,6 @@
 
 # CrossFit - my very first website
 
-
-This website was created for a new gym in Mayfair area. It introduce the user to a new way of keeping fit while becoming a part of a community.  Show few benefits of CrossFit  is the great place for someone with zero fitness experience to be introduce to this form of exercise. Also, this site is a perfect place to get in touch and book a free intro class to experience CrossFit first hand.
-
 # Table of contents
 ## UX
 ### Website owner business goals
@@ -12,7 +9,6 @@ This website was created for a new gym in Mayfair area. It introduce the user to
 ## Structure of the website
 ## Wireframes
 ## Surface
-## Features
 ## Technology
 ## Testing
 ### Functionality testing
@@ -21,10 +17,9 @@ This website was created for a new gym in Mayfair area. It introduce the user to
 ### Issues found during site development
 ### Performance testing
 ## Deployment
-## Credits
-## Screenshots
+# Features
 
-
+This website was created for a new gym in Mayfair area. It introduce the user to a new way of keeping fit while becoming a part of a community.  Show few benefits of CrossFit  is the great place for someone with zero fitness experience to be introduce to this form of exercise. Also, this site is a perfect place to get in touch and book a free intro class to experience CrossFit first hand
 
 ### Website owner business goals
 * introducing user to CrossFit
@@ -46,20 +41,20 @@ The website is created to be easy and user-friendy on all type of devices. All p
 
 ## Surface
 ### Colors/fonts :
-* Main font-family: 'Oxygen', sans-serif; secondary:  font-family: 'Roboto'
-* font: normal;
-* color: green rgb(94, 90, 90);
+* Text from the main page was taken from (https://www.crossfit.com/)
+* Main font-family: 'Oxygen', sans-serif; secondary:'Roboto'
+* Font: normal;
+* Color: green rgb(94, 90, 90);
 * Google fonts: as a font resource
 
 ### Sources 
 * I've used the following website for images, text, codes, etc,
-(https://unsplash.com/s/photos/crossfit), (https://www.crossfit.com/), (https://www.w3schools.com/), (https://developer.mozilla.org/), (https://codepen.io/)
+(https://unsplash.com/s/photos/crossfit), (https://www.crossfit.com/), (https://www.w3schools.com/), (https://developer.mozilla.org/), (https://codepen.io/), (https://learn.codeinstitute.net/)
 
 
 ## Technology
 * HTML - structure language
 * CSS - style language
-
 
 # Testing
 ## Validator testing
@@ -79,7 +74,6 @@ The website is created to be easy and user-friendy on all type of devices. All p
 
 <img src="assets/css/images/classSchedule.jpg">
 
-
 ## Deployment
 * The website was deloyed to GitHub pages.
 
@@ -88,7 +82,6 @@ I've used (https://developers.google.com/speed/pagespeed/insights/) to test the 
 
 <img src="assets/css/images/PreformanceMobile.jpg">
 <img src="assets/css/images/PreformanceDestop.jpg">
-
 
 # Features
 
