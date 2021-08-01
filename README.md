@@ -36,7 +36,7 @@ This website was created for a new gym in Mayfair area. It introduces the user t
 * user can send a message if interested in a free introduction class or other query in a form provided 
 
 ## Structure of the website
-The website is created to be easy and user-friendy on all type of devices. All parts are designed to achieve high user satisfaction, with four pages with easy navigation buttons, 
+The website was created to introduce the user to CrossFit gym in Mayfair. There is 4 pages with navigation buttons on each page, class schedule and form to contract us for more information. There is also a interactive map to make finding the gym easier.
 
 ## Wireframes
 * Initial draft of how the website should look like, I've changed few things as I've learn more about html and css 
