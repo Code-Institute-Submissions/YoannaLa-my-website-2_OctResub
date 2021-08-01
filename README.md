@@ -75,7 +75,7 @@ The website is created to be easy and user-friendy on all type of devices. All p
 <img src="assets/css/images/classSchedule.jpg">
 
 ## Deployment
-* The website was deloyed to GitHub pages.
+* The website was deployed to GitHub pages.
 
 ## Performance testing
 I've used (https://developers.google.com/speed/pagespeed/insights/) to test the speed of the website on mobile and destop. 
@@ -120,7 +120,7 @@ I've used (https://developers.google.com/speed/pagespeed/insights/) to test the 
 <img src="assets/css/images/classSchedule.jpg">
 
 ### Gallery
-* This pagea provide the user with supporing images to give them a better idea of what CrossFit is
+* This page provide the user with supporing images to give them a better idea of what CrossFit is
 * People of different ages, fittness and abilities, hopefully to inspire a new members
 
 <img src="assets/css/images/gallery1st.jpg">
