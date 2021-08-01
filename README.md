@@ -18,7 +18,6 @@ This website was created for a new gym in Mayfair area. It introduce the user to
 ### Functionality testing
 ### Compatibility testing
 ### Code Validation
-### User stories testing
 ### Issues found during site development
 ### Performance testing
 ## Deployment
@@ -46,20 +45,21 @@ The website is created to be easy and user-friendy on all type of devices. All p
 <img src="assets/css/images/wireframes2.jpg">
 
 ## Surface
-### Colors:
+### Colors/fonts :
 * Main font-family: 'Oxygen', sans-serif; secondary:  font-family: 'Roboto'
 * font: normal;
 * color: green rgb(94, 90, 90);
+* Google fonts: as a font resource
 
 ### Sources 
 * I've used the following website for images, text, codes, etc,
-(https://unsplash.com/s/photos/crossfit), (https://www.crossfit.com/), (https://www.w3schools.com/), 
+(https://unsplash.com/s/photos/crossfit), (https://www.crossfit.com/), (https://www.w3schools.com/), (https://developer.mozilla.org/), (https://codepen.io/)
 
 
 ## Technology
 * HTML - structure language
 * CSS - style language
-* bootstrap 
+
 
 # Testing
 ## Validator testing
@@ -80,11 +80,15 @@ The website is created to be easy and user-friendy on all type of devices. All p
 <img src="assets/css/images/classSchedule.jpg">
 
 
-* I've learn that I have 
-
 ## Deployment
-## Credits
-## Screenshots
+* The website was deloyed to GitHub pages.
+
+## Performance testing
+I've used (https://developers.google.com/speed/pagespeed/insights/) to test the speed of the website on mobile and destop. 
+
+<img src="assets/css/images/PreformanceMobile.jpg">
+<img src="assets/css/images/PreformanceDestop.jpg">
+
 
 # Features
 
