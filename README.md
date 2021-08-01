@@ -4,6 +4,8 @@
 
 Your site is published a (https://github.com/YoannaLa/my-website-2)
 
+<img src="assets/css/images/responsivedesign.jpg">
+
 # Table of contents
 ## UX
 ### Website owner business goals
@@ -21,7 +23,7 @@ Your site is published a (https://github.com/YoannaLa/my-website-2)
 ## Deployment
 # Features
 
-This website was created for a new gym in Mayfair area. It introduce the user to a new way of keeping fit while becoming a part of a community.  Show few benefits of CrossFit  is the great place for someone with zero fitness experience to be introduce to this form of exercise. Also, this site is a perfect place to get in touch and book a free intro class to experience CrossFit first hand
+This website was created for a new gym in Mayfair area. It introduces the user to a new way of keeping fit while becoming a part of a community.  Show few benefits of CrossFit  is the great place for someone with zero fitness experience to be introduce to this form of exercise. Also, this site is a perfect place to get in touch and book a free intro class to experience CrossFit first hand.
 
 ### Website owner business goals
 * introducing user to CrossFit
@@ -30,21 +32,21 @@ This website was created for a new gym in Mayfair area. It introduce the user to
 
 ### User goals
 * user can be learn abouth a CrossFit and become a part of the community especially during Covid time
-* user is able to check out the gallery 
+* user is given look-in what the gym is like by visiting the gallery 
 * user can send a message if interested in a free introduction class or other query in a form provided 
 
 ## Structure of the website
 The website is created to be easy and user-friendy on all type of devices. All parts are designed to achieve high user satisfaction, with four pages with easy navigation buttons, 
 
 ## Wireframes
-* Initial draft of how the website should look like, I've changed few things 
+* Initial draft of how the website should look like, I've changed few things as I've learn more about html and css 
 
 <img src="assets/css/images/wireframes1.jpg">
 <img src="assets/css/images/wireframes2.jpg">
 
 ## Surface
 ### Colors/fonts :
-* Text from the main page was taken from (https://www.crossfit.com/)
+* Some of the text on the main page was taken from (https://www.crossfit.com/)
 * Main font-family: 'Oxygen', sans-serif; secondary:'Roboto'
 * Font: normal;
 * Color: green rgb(94, 90, 90);
@@ -52,7 +54,7 @@ The website is created to be easy and user-friendy on all type of devices. All p
 
 ### Sources 
 * I've used the following website for images, text, codes, etc,
-(https://unsplash.com/s/photos/crossfit), (https://www.crossfit.com/), (https://www.w3schools.com/), (https://developer.mozilla.org/), (https://codepen.io/), (https://learn.codeinstitute.net/)
+(https://unsplash.com/s/photos/crossfit), (https://www.crossfit.com/), (https://www.w3schools.com/), (https://developer.mozilla.org/), (https://codepen.io/), (https://learn.codeinstitute.net/), 
 *  I've asked my mentor and fellow students to help
 
 
@@ -70,6 +72,7 @@ The website is created to be easy and user-friendy on all type of devices. All p
 
 ### Compatibility testing
 * I've tested the website across few different devices and browsers, I coudn't work out the media for a phone to sort out the Contact Us title. Would love to find out the right way to do it. 
+* I've used this website to check responsives of my website (http://ami.responsivedesign.is/)
 
 ### Issues found during site development
 * I had a few issues with devloping this side, took me ages to sort out the form, only today (31.07) I've realised that there wee a videos on gitpod, all this time i was relaying on google and friends help... Lesson learn.
