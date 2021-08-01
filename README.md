@@ -35,6 +35,7 @@ This website was created for a new gym in Mayfair area. It introduce the user to
 The website is created to be easy and user-friendy on all type of devices. All parts are designed to achieve high user satisfaction, with four pages with easy navigation buttons, 
 
 ## Wireframes
+* Initial draft of how the website should look like, I've changed few things 
 
 <img src="assets/css/images/wireframes1.jpg">
 <img src="assets/css/images/wireframes2.jpg">
@@ -50,6 +51,7 @@ The website is created to be easy and user-friendy on all type of devices. All p
 ### Sources 
 * I've used the following website for images, text, codes, etc,
 (https://unsplash.com/s/photos/crossfit), (https://www.crossfit.com/), (https://www.w3schools.com/), (https://developer.mozilla.org/), (https://codepen.io/), (https://learn.codeinstitute.net/)
+*  I've asked my mentor and fellow students to help
 
 
 ## Technology
