@@ -76,13 +76,32 @@ The website was created to introduce the user to CrossFit gym in Mayfair. There 
 
 ### Issues found during site development
 * I had a few issues with devloping this side, took me ages to sort out the form, only today (31.07) I've realised that there wee a videos on gitpod, all this time i was relaying on google and friends help... Lesson learn.
-
+* I had an issue with the contact form on the last page - The "container" hasn't fit a mobile sized screen. I have now removed the "with" option in css file for the full screen. I've added 2 functions margin and with at 80% of the screen. Also the "Contact us"
 * My schedule page - I really wanted to make it week by week and have at least a month with buttons next and previous, but my skills are not there yet.
 
 <img src="assets/css/images/classSchedule.jpg">
 
 ## Deployment
 * The website was deployed to GitHub pages.
+I used GitPod as a development environment where I committed all changes to git and push command to GitPod for the changes go be saved.
+
+To deploy a project I had to:
+
+Log in to GitHub and click on the right repository to deploy (BikeMemoryGame), I've 
+selected "Settings" and found GitHub Pages section.("Pages settings now has its own dedicated tab! Check it out here!")
+from source I've select branch to main and then saved the page so it could be deployed.
+Your site is published at https://yoannala.github.io/my-website-2/
+
+To run my project locally:
+
+Log in to GitHub and click on the repository to download (my-website-2)
+select Code icon to Download the ZIP file.
+after download you can save the file and use it in your local environment
+The other way is to Clone or/and Fork this repository (my-website-2) into your GitHub account.
+
+<img src="assets/css/images/DownloadZip.jpg">
+
+
 
 ## Performance testing
 I've used (https://developers.google.com/speed/pagespeed/insights/) to test the speed of the website on mobile and destop. 
