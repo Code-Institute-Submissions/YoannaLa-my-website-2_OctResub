@@ -539,12 +539,17 @@ input[type=text], input[type=email], input[type=tel] {
     margin: 0;
 }
 
-#left-about {
-    width: 30%;
+.left-about-heading, .right-about-heading {
+    width: auto;
+    text-align: center;
+
+}
+
+    
 }
 .packages {
     height: auto;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 
  h2 {
