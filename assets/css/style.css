@@ -244,7 +244,7 @@ footer {
     display: inline;
 }
 
-.find-us {
+.find-us, .copyright {
     text-align: center;
     padding: 15px 15px;
 }
@@ -538,8 +538,13 @@ input[type=text], input[type=email], input[type=tel] {
     padding: 0;
     margin: 0;
 }
+
+#left-about {
+    width: 30%;
+}
 .packages {
     height: auto;
+    padding-bottom: 5px;
 }
 
  h2 {
