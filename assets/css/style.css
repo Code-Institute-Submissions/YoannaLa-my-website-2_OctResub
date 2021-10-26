@@ -4,6 +4,7 @@
     padding:0;
     border: none;
 }
+
 html {
     overflow-x: hidden;
 }
@@ -319,6 +320,110 @@ th {
 	transform: scale(1.15);
 }
 
+/* FOURTH PAGE*/
+/* contact form */
+
+* {box-sizing: border-box;}
+
+#container {
+    position: relative;
+    width: 40%;
+    margin-left: 55%;
+    margin-right: 15%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 10px 10px;
+    background-color: rgb(224, 204, 204, .8);
+}
+
+.bg-img{
+    height: 600px;
+    width: 100%;
+    padding: 2px 2px;
+    background: url('../css//images/GirlsLifting.jpg') no-repeat center center;
+    clear: both;
+    overflow:hidden;
+    position: relative;
+    max-width: none;
+    
+    background-size: cover;
+}
+
+
+/*FOURTH PAGE*/
+
+/*Contact us*/
+
+.checkbox {
+    display:block;
+    width: 80%;
+    height: 30%;
+}
+
+textarea{
+    width: 100%;
+    padding: 15px;
+    float: left;
+    background: #f1f1f1;
+ 
+    resize:vertical;
+}
+
+#submit {
+    background-color: rgb(5, 117, 48);
+    width: 100%;
+    color: white;
+    padding: 15px 15px;
+    margin:0;
+
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.radio-button {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 90%;
+    float: left;
+    padding: 10px 10px;
+    color: rgb(94, 90, 90);
+}
+
+
+/*input fields for the form*/
+
+input[type=text], input[type=email], input[type=tel] {
+    width: 100%;
+    padding: 15px;
+    margin: 8px 0;
+    float: left;
+    border: none;
+    background: #f1f1f1;
+}
+
+/*map and adrress*/
+
+ .map-responsive {
+    overflow:hidden;
+    z-index: 1;
+}
+    
+ .map-responsive iframe {
+    height: 250px;
+    width: 100%;
+    width: 100%
+}
+
+.address {
+    text-align: center;
+    margin: 50px 0;
+    font-size:110%;
+    letter-spacing: 2px;
+    margin-bottom: 150px;
+}
+
+
                           
 /* media queries */
 
@@ -447,11 +552,16 @@ p {
     text-align: center;
 }
 
+.bg-img {
+    width: 100%;
+    margin: 0%;
+
+}
+
 #container {
-    margin-right: 10px;
-    margin-left: 15px;
-    width: 70%;
- 
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
         }
 
 .contact-us {
@@ -464,104 +574,3 @@ p {
     word-spacing: 10px;}
 }
 
-/* FOURTH PAGE*/
-/* contact form */
-
-* {box-sizing: border-box;}
-
-#container {
-    position: relative;
-    width: 80%;
-    margin-left: 10%;
-    margin-top: 30px;
-    margin-bottom: 50px;
-    padding: 10px 10px;
-    background-color: rgb(224, 204, 204, .8);
-}
-
-.bg-img{
-    height: 600px;
-    width: 100%;
-    padding: 2px 2px;
-    background: url('../css//images/GirlsLifting.jpg') no-repeat center center;
-    clear: both;
-    overflow:hidden;
-    position: relative;
-    max-width: none;
-    
-    background-size: cover;
-}
-
-
-/*FOURTH PAGE*/
-
-/*Contact us*/
-
-.checkbox {
-    display:block;
-    width: 80%;
-    height: 30%;
-}
-
-textarea{
-    width: 100%;
-    padding: 15px;
-    float: left;
-    background: #f1f1f1;
- 
-    resize:vertical;
-}
-
-#submit {
-    background-color: rgb(5, 117, 48);
-    width: 100%;
-    color: white;
-    padding: 15px 15px;
-    margin:0;
-
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-
-.radio-button {
-    font-family: 'Oxygen', sans-serif;
-    font-size: 90%;
-    float: left;
-    padding: 10px 10px;
-    color: rgb(94, 90, 90);
-}
-
-
-/*input fields for the form*/
-
-input[type=text], input[type=email], input[type=tel] {
-    width: 100%;
-    padding: 15px;
-    margin: 8px 0;
-    float: left;
-    border: none;
-    background: #f1f1f1;
-}
-
-/*map and adrress*/
-
- .map-responsive {
-    overflow:hidden;
-    z-index: 1;
-}
-    
- .map-responsive iframe {
-    height: 250px;
-    width: 100%;
-    width: 100%
-}
-
-.address {
-    text-align: center;
-    margin: 50px 0;
-    font-size:110%;
-    letter-spacing: 2px;
-    margin-bottom: 150px;
-}
