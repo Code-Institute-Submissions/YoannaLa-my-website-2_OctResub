@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Roboto&display=swap');
+
 * {
     margin: 0;
-    padding:0;
+    padding: 0;
     border: none;
 }
 
@@ -13,25 +14,26 @@ html {
 body {
     font-family: 'Oxygen', sans-serif;
     font: normal;
-    color:rgb(94, 90, 90);
+    color: rgb(94, 90, 90);
     overflow-x: scroll;
 }
 
 /* headings and logo*/
 
-h1, h2 {
-    font-family:'Oxygen', sans-serif;
+h1,
+h2 {
+    font-family: 'Oxygen', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color:rgb(5, 117, 48);
+    color: rgb(5, 117, 48);
 }
 
 #logo {
-    float:left;
+    float: left;
     font-size: 280%;
     margin-left: 50px;
 }
-    
+
 /* navigation links */
 
 #menu {
@@ -39,12 +41,13 @@ h1, h2 {
     letter-spacing: 4px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
-#menu li{
-    float:right;
+#menu li {
+    float: right;
     list-style-type: none;
     margin-right: 30px;
 }
@@ -55,7 +58,7 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border-bottom:1px solid rgb(94, 90, 90);
+    border-bottom: 1px solid rgb(94, 90, 90);
 }
 
 .acitve {
@@ -67,13 +70,14 @@ h1, h2 {
 #hero-outer {
     height: 600px;
     width: 100%;
-    overflow:hidden;
+    overflow: hidden;
 
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
-    color:white;
+#cover-text,
+#cover-text h2 {
+    color: white;
 }
 
 #hero-image {
@@ -81,7 +85,7 @@ h1, h2 {
     width: 100%;
     background: url('../css/images/weightsCrossfit.jpg') no-repeat center center;
 
-/* animates zoom effects on the loading page */
+    /* animates zoom effects on the loading page */
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -92,44 +96,47 @@ h1, h2 {
     from {
         transform: scale(1);
     }
+
     to {
-        transform: scale(1.1); }
+        transform: scale(1.1);
+    }
 }
+
 /* cover text*/
 #cover-text {
     font-size: 100%;
     font-family: 'Oxygen', sans-serif;
     color: white;
-  
+
     letter-spacing: 4px;
     text-align: center;
     width: 250px;
     height: 150px;
 
-    background-color:rgb(5, 117, 48, .8);
-    
-    bottom:10px;
-    left:250px;
+    background-color: rgb(5, 117, 48, .8);
+
+    bottom: 10px;
+    left: 250px;
     padding: 15px 15px;
 
-    position:absolute;
+    position: absolute;
     top: 30px;
 }
 
 /* club ethos */
 
 #club-ethos {
- height: 600px;
+    height: 600px;
 }
 
 #left-about {
-    padding-top:30px;
+    padding-top: 30px;
     width: 33%;
     float: left;
 }
 
 #right-about {
-    padding-top:30px;
+    padding-top: 30px;
     width: 33%;
     float: right;
 }
@@ -161,7 +168,7 @@ hr {
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
-    }
+}
 
 .right-about-heading h2 {
     text-align: left;
@@ -182,7 +189,7 @@ hr {
 #welcome {
     text-align: center;
     margin: 50px 0;
-    font-size:280%;
+    font-size: 280%;
     border-radius: 50px;
 }
 
@@ -194,7 +201,7 @@ hr {
     border-color: rgb(5, 117, 48);
     border-width: 1px;
     border-radius: 50px;
-            
+
     margin: 0 auto;
 }
 
@@ -217,15 +224,15 @@ hr {
 
 #packages div {
     color: rgb(94, 90, 90);
-    background-color:rgb(245, 229, 229, .6);
+    background-color: rgb(245, 229, 229, .6);
     width: 25%;
     height: 200px;
-    
+
     float: left;
     padding: 30px 0 0 10px;
     text-align: center;
-    border:2px solid white;
-    
+    border: 2px solid white;
+
     letter-spacing: 2px;
 }
 
@@ -243,11 +250,12 @@ footer {
     text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
-.find-us, .copyright {
+.find-us,
+.copyright {
     text-align: center;
     padding: 15px 15px;
 }
@@ -259,16 +267,16 @@ footer {
     color: rgb(5, 117, 48);
 }
 
- 
+
 /*SECOND PAGE*/
 
 /*Class schedule*/
 
 table.center {
-    margin-left:auto; 
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 50px;
-    clear:both;
+    clear: both;
     width: 90%;
     border: 2px solid rgb(5, 117, 48);
     margin-bottom: 150px;
@@ -279,13 +287,14 @@ h2 {
     text-align: center;
 }
 
- th, td {
+th,
+td {
     margin-top: 100px;
     padding: 15px;
     text-align: center;
     border: 1px solid rgb(5, 117, 48);
 }
-    
+
 th {
     background-color: rgb(5, 117, 48, .8);
     color: white;
@@ -298,35 +307,37 @@ th {
 
 .gallery {
     clear: both;
-	display: flex;
-	flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
     margin-bottom: 100px;
 }
-		
+
 .gallery-item {
-	/* Minimum width of 24rem and grow to fit available space */
-	flex: 1 0 24rem;
-	/* Margin value should be half of grid-gap value as margins on flex items don't collapse */
-	margin: 1rem;
-	overflow: hidden;
+    /* Minimum width of 24rem and grow to fit available space */
+    flex: 1 0 24rem;
+    /* Margin value should be half of grid-gap value as margins on flex items don't collapse */
+    margin: 1rem;
+    overflow: hidden;
 }
 
 .gallery-image {
-	display: block;
-	width: 100%;
-	height: 100%;
+    display: block;
+    width: 100%;
+    height: 100%;
 
-	transition: transform 400ms ease-in;
+    transition: transform 400ms ease-in;
 }
 
 .gallery-image:hover {
-	transform: scale(1.15);
+    transform: scale(1.15);
 }
 
 /* FOURTH PAGE*/
 /* contact form */
 
-* {box-sizing: border-box;}
+* {
+    box-sizing: border-box;
+}
 
 #container {
     position: relative;
@@ -339,16 +350,16 @@ th {
     background-color: rgb(224, 204, 204, .8);
 }
 
-.bg-img{
+.bg-img {
     height: 600px;
     width: 100%;
     padding: 2px 2px;
     background: url('../css//images/GirlsLifting.jpg') no-repeat center center;
     clear: both;
-    overflow:hidden;
+    overflow: hidden;
     position: relative;
     max-width: none;
-    
+
     background-size: cover;
 }
 
@@ -358,18 +369,18 @@ th {
 /*Contact us*/
 
 .checkbox {
-    display:block;
+    display: block;
     width: 80%;
     height: 30%;
 }
 
-textarea{
+textarea {
     width: 100%;
     padding: 15px;
     float: left;
     background: #f1f1f1;
- 
-    resize:vertical;
+
+    resize: vertical;
 }
 
 #submit {
@@ -377,7 +388,7 @@ textarea{
     width: 100%;
     color: white;
     padding: 15px 15px;
-    margin:0;
+    margin: 0;
 
     border: none;
     border-radius: 4px;
@@ -395,7 +406,9 @@ textarea{
 
 /*input fields for the form*/
 
-input[type=text], input[type=email], input[type=tel] {
+input[type=text],
+input[type=email],
+input[type=tel] {
     width: 100%;
     padding: 15px;
     margin: 8px 0;
@@ -407,10 +420,10 @@ input[type=text], input[type=email], input[type=tel] {
 /*map and adrress*/
 
 .map-responsive {
-    overflow:hidden;
+    overflow: hidden;
     z-index: 1;
 }
-    
+
 .map-responsive iframe {
     height: 250px;
     width: 100%;
@@ -420,13 +433,13 @@ input[type=text], input[type=email], input[type=tel] {
 .address {
     text-align: center;
     margin: 50px 0;
-    font-size:110%;
+    font-size: 110%;
     letter-spacing: 2px;
     margin-bottom: 150px;
 }
 
 
-                          
+
 /* media queries */
 
 /* For larger to medium screens size from 1200px wide and down */
@@ -442,7 +455,8 @@ input[type=text], input[type=email], input[type=tel] {
         margin: 0;
     }
 
-    #left-about, #right-about {
+    #left-about,
+    #right-about {
         width: 100%;
         float: left;
         padding: 0;
@@ -459,7 +473,7 @@ input[type=text], input[type=email], input[type=tel] {
         display: none;
     }
 
-    #packages > div {
+    #packages>div {
         width: 100%;
         clear: both;
         height: 150px;
@@ -489,26 +503,29 @@ input[type=text], input[type=email], input[type=tel] {
         margin: 0 auto;
     }
 
-    .left-about-heading, .right-about-heading {
+    .left-about-heading,
+    .right-about-heading {
         height: auto;
         text-align: center;
 
     }
 
-    .left-about-heading h2, .right-about-heading h2 {
+    .left-about-heading h2,
+    .right-about-heading h2 {
         width: 100%;
         text-align: center;
         width: auto;
     }
 
-    .left-about-heading p, .right-about-heading p {
+    .left-about-heading p,
+    .right-about-heading p {
         text-align: center;
         padding: 0 20px;
     }
 
-    #gallery{
-         column-count: 3;
-    }   
+    #gallery {
+        column-count: 3;
+    }
 
     h1 {
         padding: 30px 0;
@@ -534,15 +551,16 @@ input[type=text], input[type=email], input[type=tel] {
         margin: 0 auto;
     }
 
-    #schedule { 
+    #schedule {
         padding: 0;
         margin: 0;
     }
 
-    .left-about-heading, .right-about-heading {
+    .left-about-heading,
+    .right-about-heading {
         width: auto;
         text-align: center;
-        
+
     }
 
     .packages {
@@ -577,6 +595,6 @@ input[type=text], input[type=email], input[type=tel] {
 
     .radio-button {
         align-content: center;
-        word-spacing: 10px;}
+        word-spacing: 10px;
     }
-
+}
