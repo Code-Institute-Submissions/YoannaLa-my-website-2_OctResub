@@ -2,7 +2,7 @@
 
 # CrossFit - my very first website
 
-Your site is published a (https://github.com/YoannaLa/my-website-2)
+Your site is published a (https://yoannala.github.io/my-website-2/)
 
 <img src="assets/css/images/responsivedesign.jpg">
 
@@ -42,6 +42,7 @@ The website was created to introduce the user to CrossFit gym in Mayfair. There 
 * Initial draft of how the website should look like, I've changed few things as I've learn more about html and css 
 
 <img src="assets/css/images/wireframes1.jpg">
+
 <img src="assets/css/images/wireframes2.jpg">
 
 ## Surface
@@ -64,8 +65,16 @@ The website was created to introduce the user to CrossFit gym in Mayfair. There 
 
 # Testing
 ## Validator testing
-* HTML - No errors were found when passing through the offical W3C validator
+* HTML - 3 errosr when code pass the W3C validator, there was an issue with the form/div closing tags, I've changed the order of the form and div and the issue got fix and result in no error when put thour the W3C validator.
+
+<img src="assets/css/images/W3Cscreen.jpg">
+
+<img src="assets/css/images/W3Cscreen2.jpg">
+
+
 * CSS - No errors were found when passing through the offical (jigsaw) validator
+
+<img src="assets/css/images/W3CscreenCSS.jpg">
 
 ### Functionality testing
 * I've used the chrome developers tools to test and solving problems with style, links and responsiveness
@@ -104,7 +113,7 @@ To deploy a project I had to:
 Log in to GitHub and click on the right repository to deploy (my-website-2), I've 
 selected "Settings" and found GitHub Pages section.("Pages settings now has its own dedicated tab! Check it out here!")
 from source I've select branch to main and then saved the page so it could be deployed.
-Your site is published at https://yoannala.github.io/my-website-2/
+My site is published at https://yoannala.github.io/my-website-2/
 
 To run my project locally:
 
@@ -115,7 +124,6 @@ The other way is to Clone or/and Fork this repository (my-website-2) into your G
 The link can be found: https://github.com/YoannaLa/my-website-2
 
 <img src="assets/css/images/DownloadZip.jpg">
-
 
 
 ## Performance testing
