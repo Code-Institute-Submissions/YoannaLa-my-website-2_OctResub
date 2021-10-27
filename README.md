@@ -86,6 +86,7 @@ The website was created to introduce the user to CrossFit gym in Mayfair. There 
 
 ### Issues found during site development
 * I had a few issues with developing this side, took me ages to sort out the form, only today (31.07) I've realised that there week a video on gitpod, all this time i was relaying on google and friends help... Lesson learn.
+* The biggest issue I had in this development was the media query for phone size; details below: 
 * I had an issue with the contact form on the last page - The "container" hasn't fit a mobile sized screen. I have now removed the "with" option in css file for the full screen. I've added margin and with at 80% of the screen. Also the "Contact us" paragraph is now proportion. I have fixed that issue with 'inspect' function and play around the "container" size and location of the form. I wanted the form to be in the middle of the small screen (mobile) so set up the margins and correct size. Also since the form is located on the image, I've adjusted the size of the image too.
 
 <img src="assets/css/images/ContactUsScreen.jpg" alt="screenshot of contact us fitting the small screen">
@@ -99,10 +100,13 @@ The website was created to introduce the user to CrossFit gym in Mayfair. There 
 
 <img src="assets/css/images/ContactUsScreen3.jpg" alt="screenshot of index page packages fitting the small screen">
 
-
 * My schedule page - I really wanted to make it week by week and have at least a month with buttons next and previous, but my skills are not there yet.
 
 <img src="assets/css/images/classSchedule.jpg" alt="screenshot of class schedule fitting the small screen">
+
+* I've also had a issue with the gallary to fit nicely on mobile phone device. I have changed the width of the gallery in css in media query. I've used the inspect function to find the best solutions.
+
+<img src="assets/css/images/ScreenshotGallery.jpg" alt="screenshot of gallery page on a mobile screen">
 
 
 ## Deployment
