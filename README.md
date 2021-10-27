@@ -8,59 +8,60 @@ Your site is published a (https://yoannala.github.io/my-website-2/)
 <img src="assets/css/images/responsivedesign.jpg" alt="how the pages look on different devices">
 
 # Table of contents
-## UX
-### Website owner business goals
-### User goals
-## Structure of the website
-## Wireframes
-## Surface
-## Technology
-## Testing
-### Functionality testing
-### Compatibility testing
-### Code Validation
-### Issues found during site development
-### Performance testing
-## Deployment
+# UX
+## Website owner business goals
+## User goals
+# Structure of the website
+# Wireframes
+# Surface
+# Technology
+# Testing
+## Validation testing
+## Functionality testing
+## Compatibility testing
+## Bugs and issues found during site development
+## Performance testing
+# Deployment
 # Features
 
 This website was created for a new gym in Mayfair area. It introduces the user to a new way of keeping fit while becoming a part of a community.  Show few benefits of CrossFit  is the great place for someone with zero fitness experience to be introduce to this form of exercise. Also, this site is a perfect place to get in touch and book a free intro class to experience CrossFit first hand.
 
-### Website owner business goals
+# UX
+## Website owner business goals
 * introducing user to CrossFit
 * creating "traffic" and interest in a new way of exercise
 * using the free intro class to find new members
 
-### User goals
+## User goals
 * user can be learn about a CrossFit and become a part of the community especially during Covid time
 * user is given look-in what the gym is like by visiting the gallery 
 * user can send a message if interested in a free introduction class or other query in a form provided 
 
-## Structure of the website
+# Structure of the website
 The website was created to introduce the user to CrossFit gym in Mayfair. There is 4 pages with navigation buttons on each page, class schedule and form to contract us for more information. There is also a interactive map to make finding the gym easier.
 
-## Wireframes
+# Wireframes
 * Initial draft of how the website should look like, I've changed few things as I've learn more about html and css. I wanted the site to be easy to navigate, available on all devices, informative and user friendly.
 
 <img src="assets/css/images/wireframes1.jpg" alt="original layout for the website">
 
 <img src="assets/css/images/wireframes2.jpg" alt="original layout for the website">
 
-## Surface
-### Colors/fonts :
+# Surface
+## Colors/fonts :
 * Some of the text on the main page was taken from (https://www.crossfit.com/)
 * Main font-family: 'Oxygen', sans-serif; secondary:'Roboto'
 * Font: normal;
 * Color: green rgb(94, 90, 90);
 * Google fonts: as a font resource
 
-### Sources 
+## Sources 
 * I've used the following website for images, text, codes, etc,
 (https://unsplash.com/s/photos/crossfit), (https://www.crossfit.com/), (https://www.w3schools.com/), (https://developer.mozilla.org/), (https://codepen.io/), (https://learn.codeinstitute.net/), 
 *  I've asked my mentor and fellow students to help. Also I've an inspiration from the website in my local crossfit gym (https://parksidegym.com/)
 
 
-## Technology
+# Technology
 * HTML - structure language
 * CSS - style language
 
@@ -77,16 +78,16 @@ The website was created to introduce the user to CrossFit gym in Mayfair. There 
 
 <img src="assets/css/images/W3CscreenCSS.jpg" alt="screenshot of css code no errors">
 
-### Functionality testing
+## Functionality testing
 * I've used the chrome developers tools to test and solving problems with style, social links and responsiveness and sent the link to the website to few of my friends so they can check the functionality on different devices 
 
-### Compatibility testing
+## Compatibility testing
 * I've tested the website across few different devices and browsers, and it seems to be working fine, easy to read and use.
 * I've used this website to check responsive of my website (http://ami.responsivedesign.is/)
 * Also I've used the inspect function to check how the pages behave on different screen sizes.
 
 
-### Issues found during site development
+## Bugs and issues found during site development
 * I had a few issues with developing this side, took me ages to sort out the form, only today (31.07) I've realised that there week a video on gitpod, all this time i was relaying on google and friends help... Lesson learn.
 * The biggest issue I had in this development was the media query for phone size; details below: 
 * I had an issue with the contact form on the last page - The "container" hasn't fit a mobile sized screen. I have now removed the "with" option in css file for the full screen. I've added margin and with at 80% of the screen. Also the "Contact us" paragraph is now proportion. I have fixed that issue with 'inspect' function and play around the "container" size and location of the form. I wanted the form to be in the middle of the small screen (mobile) so set up the margins and correct size. Also since the form is located on the image, I've adjusted the size of the image too.
@@ -111,7 +112,16 @@ The website was created to introduce the user to CrossFit gym in Mayfair. There 
 <img src="assets/css/images/ScreenshotGallery.jpg" alt="screenshot of gallery page on a mobile screen">
 
 
-## Deployment
+<img src="assets/css/images/DownloadZip.jpg" alt="screenshot of github">
+
+
+## Performance testing
+I've used (https://developers.google.com/speed/pagespeed/insights/) to test the speed of the website on mobile and destop. 
+
+<img src="assets/css/images/PreformanceMobile.jpg" alt= "screenshot preformance testing">
+<img src="assets/css/images/PreformanceDestop.jpg" alt= "screenshot preformance testing" >
+
+# Deployment
 * The website was deployed to GitHub pages.
 I used GitPod as a development environment where I committed all changes to git and push command to GitPod for the changes go be saved.
 
@@ -129,15 +139,6 @@ select Code icon to Download the ZIP file.
 after download I was able can save the file and use it in my local environment
 The other way is to Clone or/and Fork this repository (my-website-2) into my GitHub account.
 The link can be found: https://github.com/YoannaLa/my-website-2
-
-<img src="assets/css/images/DownloadZip.jpg" alt="screenshot of github">
-
-
-## Performance testing
-I've used (https://developers.google.com/speed/pagespeed/insights/) to test the speed of the website on mobile and destop. 
-
-<img src="assets/css/images/PreformanceMobile.jpg" alt= "screenshot preformance testing">
-<img src="assets/css/images/PreformanceDestop.jpg" alt= "screenshot preformance testing" >
 
 # Features
 
