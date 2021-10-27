@@ -307,7 +307,6 @@ th {
 
 .gallery {
     clear: both;
-    display: flex;
     flex-wrap: wrap;
     margin-bottom: 100px;
 }
@@ -523,7 +522,7 @@ input[type=tel] {
         padding: 0 20px;
     }
 
-    #gallery {
+    .gallery {
         column-count: 3;
     }
 
@@ -541,8 +540,10 @@ input[type=tel] {
 
 @media only screen and (max-width:480px) {
 
-    #gallery {
+    .gallery {
         column-count: 1;
+        align-items: center;
+        
     }
 
     #bg-img {
