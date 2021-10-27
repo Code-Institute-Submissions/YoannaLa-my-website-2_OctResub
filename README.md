@@ -112,6 +112,7 @@ Log in to GitHub and click on the repository to download (my-website-2)
 select Code icon to Download the ZIP file.
 after download you can save the file and use it in your local environment
 The other way is to Clone or/and Fork this repository (my-website-2) into your GitHub account.
+The link can be found: https://github.com/YoannaLa/my-website-2
 
 <img src="assets/css/images/DownloadZip.jpg">
 
