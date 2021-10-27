@@ -40,7 +40,7 @@ This website was created for a new gym in Mayfair area. It introduces the user t
 The website was created to introduce the user to CrossFit gym in Mayfair. There is 4 pages with navigation buttons on each page, class schedule and form to contract us for more information. There is also a interactive map to make finding the gym easier.
 
 ## Wireframes
-* Initial draft of how the website should look like, I've changed few things as I've learn more about html and css 
+* Initial draft of how the website should look like, I've changed few things as I've learn more about html and css. I wanted the site to be easy to navigate, available on all devices, informative and user friendly.
 
 <img src="assets/css/images/wireframes1.jpg" alt="original layout for the website">
 
@@ -57,7 +57,7 @@ The website was created to introduce the user to CrossFit gym in Mayfair. There 
 ### Sources 
 * I've used the following website for images, text, codes, etc,
 (https://unsplash.com/s/photos/crossfit), (https://www.crossfit.com/), (https://www.w3schools.com/), (https://developer.mozilla.org/), (https://codepen.io/), (https://learn.codeinstitute.net/), 
-*  I've asked my mentor and fellow students to help
+*  I've asked my mentor and fellow students to help. Also I've an inspiration from the website in my local crossfit gym (https://parksidegym.com/)
 
 
 ## Technology
@@ -78,11 +78,13 @@ The website was created to introduce the user to CrossFit gym in Mayfair. There 
 <img src="assets/css/images/W3CscreenCSS.jpg" alt="screenshot of css code no errors">
 
 ### Functionality testing
-* I've used the chrome developers tools to test and solving problems with style, links and responsiveness and sent the link to the website to few of my friends so they can check the functionality on different devices 
+* I've used the chrome developers tools to test and solving problems with style, social links and responsiveness and sent the link to the website to few of my friends so they can check the functionality on different devices 
 
 ### Compatibility testing
 * I've tested the website across few different devices and browsers, and it seems to be working fine, easy to read and use.
 * I've used this website to check responsive of my website (http://ami.responsivedesign.is/)
+* Also I've used the inspect function to check how the pages behave on different screen sizes.
+
 
 ### Issues found during site development
 * I had a few issues with developing this side, took me ages to sort out the form, only today (31.07) I've realised that there week a video on gitpod, all this time i was relaying on google and friends help... Lesson learn.
